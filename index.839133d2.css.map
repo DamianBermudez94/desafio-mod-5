@@ -1,0 +1,1 @@
+{"mappings":"AAAA,EACA,qBAAA,CACA,QAAA,CACA,SACA,CAEA,MACA,WACA,CACA,wBACA,YACA","sources":["src/index.css"],"sourcesContent":["* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.root {\r\n  height: 100%;\r\n}\r\nbody::-webkit-scrollbar {\r\n  display: none;\r\n}\r\n"],"names":[],"version":3,"file":"index.839133d2.css.map"}
