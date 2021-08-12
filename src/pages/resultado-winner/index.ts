@@ -62,14 +62,12 @@ export function initResultadoWinner(params){
         }
         
         .section{
-            height:100%;
+            height:100vh;
             background-image:url(${fondo});
             display: none;
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            min-width:375px;
-            min-height: 667px;
             position: absolute;
             top: 0px;
             bottom: 0px;
@@ -88,11 +86,11 @@ export function initResultadoWinner(params){
         }
       
         .container-all{
+            height:100vh;
             background-image:url(${fondo});
             display:flex;
             flex-direction: column-reverse;
-            min-height:100vh;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
         .section-2{
@@ -101,8 +99,8 @@ export function initResultadoWinner(params){
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-width:375px;
-            min-height: 667px;
+            width:100%;
+            height:100%;
             position: absolute;
             top: 0px;
             bottom: 0px;
@@ -111,21 +109,27 @@ export function initResultadoWinner(params){
             display:none;
         }
         .my-play{
-          
+           
+           
             min-width: 157px;
             min-height: 300px;
+
         }
         .computer-play{
+           
             transform: rotate(180deg);
         }
         @media (min-width: 960px){
 
-            .my-play{
-                min-width: 200px;
-                min-height: 500px;
+            .section{
+                height:625px;
+               
+                
             }
-            .computer-play{
-                transform: rotate(180deg);
+            .container-all{
+                height:625px;
+                justify-content: initial;
+                padding:50px;
             }
         }
       
@@ -147,7 +151,7 @@ export function initResultadoWinner(params){
         {
             section.style.display = "flex";
             section.style.background = "rgba(136, 137, 73, 0.9)";
-            section.style.padding="20px";
+            section.style.padding="0";
             imagen.src = ganaste;
             
             

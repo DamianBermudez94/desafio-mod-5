@@ -32,6 +32,7 @@ export function initResultadosLoser(params){
            
         }
         
+        
     `
     
     div.appendChild(style);
