@@ -124,7 +124,6 @@ export function initResultadoWinner(params){
             .section{
                 height:625px;
                
-                
             }
             .container-all{
                 height:625px;
